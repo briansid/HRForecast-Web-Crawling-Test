@@ -23,33 +23,51 @@ db_name="myDatabaseName"
 ```
 
 3. Install Python 3.7.1
-> apt-get install python
+```
+apt-get install python
+```
 
 4. Install pip
-> apt-get install python3-pip
+```
+apt-get install python3-pip
+```
 
 5. Create and activate virtual enviroment
-> python -m virtualenv env
+```
+python -m virtualenv env
+```
 
 6. Install dependencise
-> pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 7. Run
-> hrforecast_test/hrforecast_test/spiders/script.sh
+```
+hrforecast_test/hrforecast_test/spiders/script.sh
+```
 
 
 # View database tables:
 1. Go to database shell
-> psql -d myDatabaseName
+```
+psql -d myDatabaseName
+```
 
 2. Show summary information about all tables in the current database:
-> \dt
+```
+\dt
+```
 
 3. Acces all data from tables
-> SELECT * FROM tablename;
+```
+SELECT * FROM tablename;
+```
 
 4. Exit
-> \q
+```
+\q
+```
 
 ![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/gazprom_jobs.png)
 
