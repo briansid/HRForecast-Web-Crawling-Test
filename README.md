@@ -22,29 +22,30 @@ port="5432",
 db_name="myDatabaseName"
 ```
 
-3. Install Python 3.7.1
+4. Install Python 3.7.1
 ```
 apt-get install python
 ```
 
-4. Install pip
+5. Install pip
 ```
 apt-get install python3-pip
 ```
 
-5. Create and activate virtual enviroment
+6. Create and activate virtual enviroment
 ```
-python -m virtualenv env
+virtualenv venv
+source venv/bin/activate
 ```
 
-6. Install dependencise
+7. Install dependencise
 ```
 pip install -r requirements.txt
 ```
 
-7. Run
+8. Run
 ```
-hrforecast_test/hrforecast_test/spiders/script.sh
+./hrforecast_test/hrforecast_test/spiders/script.sh
 ```
 
 
@@ -59,7 +60,7 @@ psql -d myDatabaseName
 \dt
 ```
 
-3. Acces all data from tables
+3. Retrieve all data from tables
 ```
 SELECT * FROM tablename;
 ```
