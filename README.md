@@ -1,7 +1,9 @@
 ![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/hrforecast_jobs.png)
 # Installation steps:
 1. Install PostgreSQL
-> apt-get install postgresql postgresql-contrib
+```
+apt-get install postgresql postgresql-contrib
+```
 
 2. Setup PostgreSQL
 ```
@@ -30,10 +32,10 @@ db_name="myDatabaseName"
 > python -m virtualenv env
 
 6. Install dependencise
-> pip install -r ./hrforecast_test/hrforecast_test/requirements.txt
+> pip install -r requirements.txt
 
 7. Run
-> ./hrforecast_test/hrforecast_test/spiders/script.sh
+> hrforecast_test/hrforecast_test/spiders/script.sh
 
 
 # View database tables:
