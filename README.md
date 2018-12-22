@@ -1,19 +1,24 @@
+![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/hrforecast_jobs.png)
 # Installation steps:
 1. Install PostgreSQL
 > apt-get install postgresql postgresql-contrib
 
 2. Setup PostgreSQL
-> sudo -u postgres -i
-> initdb -D '/var/lib/postgres/data'
-> createuser --interactive
-> createdb myDatabaseName
+```
+sudo -u postgres -i
+initdb -D '/var/lib/postgres/data'
+createuser --interactive
+createdb myDatabaseName
+```
 
 3. Specify your database settings in ./hrforecast_test/hrforecast_test/settings.py
-> 	user="youruser",
->     passwd="yourpassword",
->     host="localhost",
->     port="5432",
->     db_name="myDatabaseName"
+```
+user="youruser",
+passwd="yourpassword",
+host="localhost",
+port="5432",
+db_name="myDatabaseName"
+```
 
 3. Install Python 3.7.1
 > apt-get install python
@@ -44,8 +49,7 @@
 4. Exit
 > \q
 
-![alt text](HRForecast-Web-Crawling-Test/gazprom_jobs.png)
-![alt text](HRForecast-Web-Crawling-Test/hrforecast_jobs.png)
+![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/gazprom_jobs.png)
 
 
 
