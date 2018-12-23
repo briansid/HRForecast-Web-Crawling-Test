@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/hrforecast_jobs.png)
+![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/sample_output/hrforecast_jobs.png)
 # Installation steps:
 1. Install PostgreSQL
 ```
@@ -43,9 +43,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-8. Run
+8. Go into spiders folder and run script.sh
 ```
-./hrforecast_test/hrforecast_test/spiders/script.sh
+cd hrforecast_test/hrforecast_test/spiders/
+./script.sh
 ```
 
 
@@ -70,7 +71,7 @@ SELECT * FROM tablename;
 \q
 ```
 
-![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/gazprom_jobs.png)
+![alt text](https://raw.githubusercontent.com/briansid/HRForecast-Web-Crawling-Test/master/sample_output/gazprom_jobs.png)
 
 
 
